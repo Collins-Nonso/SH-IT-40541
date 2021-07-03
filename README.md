@@ -16,7 +16,6 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -58,15 +57,22 @@ Users should be able to:
 
 ### What I learned
 
-Going through this challenge, though the task is not an easy one, I learnt a couple of things to which making mini research is one of them. Making researches became my second me in trying to accomplish this task, although given the time frame I have. But by taking up this challenge, I came to understand CSS and how it works with HTML and browsers proper. This challenge realy exposed me to the various frontend design techniques used to make pages responsive accross numerous screens and also how to add numerous effects to any HTMl or Web content using CSS like colors, hover effects, styling links and the page background.
+- Going through this challenge, though the task is not an easy one, 
+- I learnt a couple of things to which making mini research is one of them.
+- Making researches became my second me in trying to accomplish this task,
+- although given the time frame I have. But by taking up this challenge, 
+- I came to understand CSS and how it works with HTML and browsers proper. 
+- This challenge realy exposed me to the various frontend design techniques used 
+- to make pages responsive accross numerous screens and also how to add numerous effects 
+- to any HTMl or Web content using CSS like colors, hover effects, styling links and the page background.
 
-```html
-<ul>Un-ordered list</ul>
+## HTML 
+**<ul>Un-ordered list</ul>**
 
 The code above came in handy when trying to append most of the sections outlined in the challenge and this made me to understand it very well, as well as the uses.
 
-```css
-@media and (max/min-width: value)
+## CSS
+**@media and (max/min-width: value)**
 
 The code above also made me to understand that some of the responsiveness of most webpages can be twerked by just using this line of code.
 
