@@ -1,0 +1,474 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --fylobd: hsl(220, 13%, 27%);
+    --intro-mailbg: hsl(217, 28%, 15%);
+    --mainbg: hsl(218, 28%, 13%);
+    --footerbg: hsl(216, 53%, 9%);
+    --testimonialbg: hsl(219, 30%, 18%);
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --lightred: hsl(0, 100%, 63%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+body h1,h2,h3,h4,h5,h6, li, p {
+    color: var(--white);
+}
+
+
+.topSection {
+    padding: 0 1rem;
+    background: var(--fylobd);
+}
+
+.topBar {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.topBar .fylo-logo {
+    float: left;
+}
+
+.topBar .fylo-logo img {
+    width: 100px;
+    height: 30px;
+}
+
+.topBar .topMenu ul {
+    float: right;
+    display: inline-flex;
+}
+
+.topBar .topMenu ul li {
+    padding: 0 1rem;
+}
+
+.topBar .topMenu ul li {
+    font-family: 'Raleway';
+    list-style-type: none;
+}
+
+.topIntro {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.topIntro img {
+    height: 200px;
+    width: 250px;
+}
+
+.topIntro .topIntroTxt {
+    padding: 0 0 20px 0;
+}
+
+.topIntro .topIntroTxt h3 {
+    font-size: 32px;
+    font-family: 'Open Sans';
+}
+
+.topIntro .topIntroTxt p {
+    font-size: 20px;
+    font-family: 'Open Sans';
+}
+
+.topIntro a {
+    text-decoration: none;
+    color: var(--white);
+    background: var(--blue);
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.topIntro a:hover {
+    text-decoration: none;
+    color: var(--white);
+    background: var(--cyan);
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.topIntro .bgImage {
+    background-image: url("images/bg-curvy-desktop.svg");
+    width: 100%;
+    height: 20%;
+}
+
+.fyloBD {
+    background: var(--mainbg);
+    text-align: center;
+    justify-content: center;
+}
+
+.fyloBD .first {
+    padding: 50px 0 0 0;
+    list-style-type: none;
+    display: block;
+}
+
+.fyloBD .first li {
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Raleway';
+}
+
+.fyloBD .first li img {
+    width: 25%;
+    height: 35%;
+    padding: 0 0 20px 0;
+}
+
+.fyloBD .first h3 {
+    padding: 10px 0;
+}
+
+.fyloBD .first li p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* STAY PRODUCTIVE */
+
+.stayProductive {
+    margin: 0 1rem;
+    padding: 0 0 50px 0;
+}
+
+.stayProductive .second {
+    display: block;
+    list-style-type: none;
+    padding: 50px 0 0 0;
+}
+
+.stayProductive .second li .productive {
+    width: 80%;
+    height: 80%;
+}
+
+.stayProductive .second .gigMenuInfo {
+    text-align: left;
+}
+
+.stayProductive .second .gigMenuInfo h3 {
+    font-size: 20px;
+    padding: 2rem 0 1rem 0;
+}
+
+.stayProductive .second .gigMenuInfo p {
+    font-family: 'Raleway';
+    padding: 10px 0;
+}
+
+.stayProductive .second .gigMenuInfo .arrow a {
+    border-bottom: 1px solid var(--cyan);
+    color: var(--cyan);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.stayProductive .second .gigMenuInfo .arrow a:hover {
+    color: var(--white);
+    border-bottom: 1px solid var(--white);
+}
+
+.stayProductive .second .gigMenuInfo .arrow img {
+    width: 3%;
+    height: 3%;
+}
+
+/* TESTIMONY */
+
+.fyloTestimony .bgQuote {
+    text-align: left;
+    margin-left: 4rem;
+    z-index: -10;
+}
+
+.fyloTestimony ul {
+    display: block;
+    margin: 0 2rem 5rem 2rem;
+    list-style-type: none;
+}
+
+.fyloTestimony ul li {
+    margin: 0 2rem;
+    margin: 0 20px 20px 20px;
+}
+
+.fyloTestimony ul .tmonyBox {
+    font-family: 'Raleway';
+    background: var(--testimonialbg);
+    padding: 30px 15px 20px 15px;
+}
+
+.fyloTestimony ul .tmonyBox p {
+    font-size: 16px;
+    text-align: left;
+    margin: 0 0 20px 0;
+}
+
+.fyloTestimony ul .tmonyBox .profileBox {
+    display: flex;
+}
+
+.fyloTestimony ul .tmonyBox .profileBox img {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
+
+.fyloTestimony ul .tmonyBox .profileBox .name {
+    text-align: left;
+    padding: 0 10px;
+    font-family: 'Raleway';
+}
+
+.fyloTestimony ul .tmonyBox .profileBox .name h4 {
+    padding: 10px 0;
+}
+
+.fyloTestimony ul .tmonyBox .profileBox .name h4, h6 {
+    font-family: 'Open Sans';
+}
+
+/* EMAIL ACTION */
+
+.fyloBD .emailAction {
+    margin: 0 1rem;
+    padding: 20px 10px;
+    background: var(--intro-mailbg);
+    border-radius: 5px;
+}
+
+.fyloBD .emailAction h3 {
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 0 15px 0;
+}
+
+.fyloBD .emailAction p {
+    font-family: 'Raleway';
+    font-size: 16px;
+    padding: 0 0 15px 0;
+}
+
+.fyloBD .emailAction .actionKey input {
+    height: 30px;
+    width: 50%;
+    background: var(--white);
+    border-radius: 50px;
+    padding: 0 0 0 10px;
+    margin: 0 5px 0 0;
+}
+
+.fyloBD .emailAction .actionKey span a {
+    text-decoration: none;
+    color: var(--white);
+    background: var(--blue);
+    border-radius: 50px;
+    padding: 7px 10px;
+}
+
+.fyloBD .emailAction .actionKey span a:hover {
+    color: var(--white);
+    background: var(--cyan);
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: var(--footerbg);
+    color: var(--white);
+}
+
+.footer .footer-content {
+    display: block;
+    padding: 50px 0;
+    margin: 0 10px;
+}
+
+.footer .footer-content .footer-section-one {
+    width: 100%;
+    padding: 15px;
+}
+
+.footer .footer-content .footer-section-one .marker {
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.footer .footer-content .footer-section-one .marker img {
+    width: 3%;
+    height: 3%;
+    margin: 10px 20px 0 10px;
+}
+
+.footer .footer-content .footer-section-two {
+    width: 100%;
+    font-size: 16px;
+    padding: 30px 0 0 0;
+}
+
+.footer .footer-content .footer-section-two .footer2-1, .footer2-2 {
+    display: block;
+}
+
+.footer .footer-content .footer-section-two .footer2-1, .footer2-2 img {
+    width: 5%;
+    height: 5%;
+}
+
+.footer .footer-content .footer-section-two .footer2-1 span {
+    margin: 0 10px;
+}
+
+.footer .footer-content .footer-section-two .footer2-2 span {
+    margin: 0 10px;
+}
+
+.footer .footer-content .footer-section-three {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.footer .footer-content .footer-section-three .footer3 ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.footer .footer-content .footer-section-three .footer3 ul li {
+    padding: 5px 0;
+}
+
+.footer .footer-content .footer-section-four {
+    width: 100%;
+}
+
+.footer .footer-content .footer-section-four .footer4 ul {
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.footer .footer-content .footer-section-four .footer4 ul li {
+    padding: 5px 0;
+}
+
+.footer .footer-content .footer-section-five {
+    width: 100%;
+}
+
+.footer .footer-content .footer-section-five ul {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 10px;
+}
+
+.footer .footer-content .footer-section-five ul li {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid var(--white);
+    border-radius: 50px;
+}
+
+.footer .footer-bottom {
+    background: var(--mainbg);
+    color: var(--blue);
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 750px) {
+    .fyloBD .first {
+        display: inline-flex;
+    }
+    .fyloBD .first li {
+        width: 100%;
+    }
+    .stayProductive {
+        margin: 0 5rem 0 0;
+    }
+    .stayProductive .second {
+        display: inline-flex;
+        padding-left: 100px;
+    }
+    .stayProductive .second .gigMenuInfo h3 {
+        font-size: 30px;
+        padding: 2rem 0 0 0;
+    }
+    .stayProductive .second .gigMenuInfo .arrow img {
+        width: 2%;
+        height: 2%;
+    }
+    .fyloTestimony ul {
+        display: flex;
+    }
+    .fyloBD .emailAction {
+        margin: 0 20rem;
+        padding: 40px 60px;
+    }
+    .fyloBD .emailAction .actionKey input {
+        height: 40px;
+        width: 60%;
+        background: var(--white);
+        border-radius: 50px;
+        padding: 0 0 0 30px;
+        margin: 0 20px 0 0;
+    }
+    .fyloBD .emailAction .actionKey span a {
+        text-decoration: none;
+        color: var(--white);
+        background: var(--blue);
+        border-radius: 50px;
+        padding: 13px 30px;
+    }
+    .footer .footer-content {
+        display: flex;
+    }
+    .footer .footer-content .footer-section-one {
+        width: 40%;
+        padding: 15px;
+    }
+    .footer .footer-content .footer-section-two {
+        width: 15%;
+        font-size: 16px;
+        padding: 30px 0 0 0;
+    }
+    .footer .footer-content .footer-section-two .footer2-1, .footer2-2 {
+        display: inline-flex;
+    }
+    .footer .footer-content .footer-section-three {
+        width: 15%;
+    }
+    .footer .footer-content .footer-section-four {
+        width: 15%;
+    }
+    .footer .footer-content .footer-section-five {
+        width: 15%;
+    }
+}
