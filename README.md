@@ -6,7 +6,6 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -23,22 +22,11 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 ### The challenge
 
-This is a Fylo landing page challenge by frontend mentor. The challenge is to test the coding level of all the Side Hustle interns under the Frontend track.
-
-Users should be able to:
-
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-
-### Screenshot
-
-![](./desktop1.png)
-![](./mobile1.png)
+The challenge is to teach the internship students at Side Hustle about what CSS can do to a Web page and also, to test the coding level (HTML & CSS) of all the Side Hustle interns under the Frontend track.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://collins-nonso-fylo.netlify.app/)
 
 ## My process
 
@@ -92,4 +80,4 @@ At this stage I will have to put more effort in learning about CSS Flexbox in it
 
 ## Acknowledgments
 
-I acknowledge the entire team of Side Hustle, particularly my mentors viz Damilare, Shaydee and even Melfor_B for all their efforts in handling this process and in trying all their possible best to carry everyone along. I say may God give you all the strength to push this till the end. Gratias!
+I acknowledge the entire team of Side Hustle, particularly my mentors viz Damilare, Shaydee and even Melford_B for all their efforts in handling this process and in trying all their possible best to carry everyone along. I say may God give you all the strength to push this till the end. Gratias!
