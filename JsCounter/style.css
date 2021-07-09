@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: auto;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url('bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+    height: 100%;
+    padding-top: 20px;
+}
+
+body .git {
+    text-align: center;
+}
+
+body .fa-github {
+    color: #0c2c54;
+    font-size: 60px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid #0c2c54;
+}
+
+body .fa-github:hover {
+    color: #00ff00;
+    border: 2px solid #00ff00;
+}
+
+body .fa-github:active {
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.pageBody {
+    border: 2px solid #ffffff;
+    margin: 2rem 20rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    display: block;
+    box-shadow: 0px 8px 8px 0px #000000;
+}
+
+.pageBody p {
+    color: #ffffff;
+    font-size: 35px;
+    font-family: 'Ebrima';
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.pageBody span {
+    color: #00ff00;
+    font-size: 100px;
+    width: 100%;
+    margin: 0 0 5px 0;
+    text-align: center;
+    background: transparent;
+}
+
+.pageBody button {
+    color: #ffffff;
+    background: #0c2c54;
+    border: none;
+    margin: 10px 0;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-family: 'Ebrima';
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.pageBody button:hover {
+    color: #00ff00;
+    background: #070707;
+    border: none;
+}
+
+.pageBody button:active {
+    color: #ffffff;
+    background: #0c2c54;
+    border: none;
+}
+
+.footer {
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    color: #f0f0f0;
+    background: #0c2c54;
+    margin: 0;
+    padding: 1px 0 20px 0;
+}
+
+.footer p {
+    font-family: 'Ebrima';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 750px) {
+    .pageBody {
+        margin: 2rem 2rem;
+        padding: 2rem 1rem;
+    }
+    .footer {
+        width: 100%;
+        margin: 0;
+    }
+}
