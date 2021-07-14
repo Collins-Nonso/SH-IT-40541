@@ -4,7 +4,7 @@
 
 # Javascript Color Flipper design solution
 
-This is a solution to the [Javascript Color Flipper Design] available via (https://jsbeginners.com/wp-content/uploads/2019/05/counter-javascript-project.png). 
+This is a solution to the [Javascript Color Flipper Design] available via (https://www.vanillajavascriptprojects.com/). 
 
 ## Table of contents
 
@@ -22,7 +22,7 @@ This is a solution to the [Javascript Color Flipper Design] available via (https
 
 ## Overview
 
-This is a solution to the [Javascript Color Flipper Design] available via (https://jsbeginners.com/wp-content/uploads/2019/05/counter-javascript-project.png). 
+This is a solution to the [Javascript Color Flipper Design] available via (https://www.vanillajavascriptprojects.com/). 
 
 ### The challenge
 
