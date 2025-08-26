@@ -2,15 +2,10 @@
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 :root {
-    --fylobd: hsl(220, 13%, 27%);
     --intro-mailbg: hsl(217, 28%, 15%);
     --mainbg: hsl(218, 28%, 13%);
     --footerbg: hsl(216, 53%, 9%);
@@ -23,45 +18,38 @@ html, body {
 
 body {
     font-family: 'Open Sans';
-    font-size: 14px;
+    background: var(--mainbg);
 }
 
-body h1,h2,h3,h4,h5,h6, li, p {
+h1,h2,h3,h4,h5,h6, li, p {
     color: var(--white);
 }
 
-
 .topSection {
-    padding: 0 1rem;
-    background: var(--fylobd);
+    padding: 0 10rem;
 }
 
 .topBar {
     width: 100%;
     padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.topBar .fylo-logo {
-    float: left;
+.topBar img {
+    width: 150px;
 }
 
-.topBar .fylo-logo img {
-    width: 100px;
-    height: 30px;
+.topBar ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
 }
 
-.topBar .topMenu ul {
-    float: right;
-    display: inline-flex;
-}
-
-.topBar .topMenu ul li {
+.topBar ul li {
     padding: 0 1rem;
-}
-
-.topBar .topMenu ul li {
-    font-family: 'Raleway';
-    list-style-type: none;
+    color: #afafaf;
 }
 
 .topIntro {
@@ -70,30 +58,28 @@ body h1,h2,h3,h4,h5,h6, li, p {
 }
 
 .topIntro img {
-    height: 200px;
-    width: 250px;
-}
-
-.topIntro .topIntroTxt {
-    padding: 0 0 20px 0;
+    width: 500px;
 }
 
 .topIntro .topIntroTxt h3 {
-    font-size: 32px;
-    font-family: 'Open Sans';
+    font-size: 42px;
+    margin: 10px 400px;
+    line-height: 1.3;
 }
 
 .topIntro .topIntroTxt p {
-    font-size: 20px;
-    font-family: 'Open Sans';
+    font-size: 18px;
+    margin: 10px 530px 40px 530px;
+    line-height: 1.5;
 }
 
 .topIntro a {
     text-decoration: none;
     color: var(--white);
-    background: var(--blue);
+    background: linear-gradient(90deg, rgb(0, 225, 255), rgb(0, 162, 255));
     padding: 10px 50px;
     border-radius: 20px;
+    font-size: 14px;
 }
 
 .topIntro a:hover {
@@ -111,83 +97,69 @@ body h1,h2,h3,h4,h5,h6, li, p {
 }
 
 .fyloBD {
-    background: var(--mainbg);
     text-align: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .fyloBD .first {
-    padding: 50px 0 0 0;
+    margin: 100px 300px 20px 300px;
     list-style-type: none;
-    display: block;
+    display: flex;
 }
 
 .fyloBD .first li {
     margin: 1rem;
     padding: 1rem;
-    font-family: 'Raleway';
-}
-
-.fyloBD .first li img {
-    width: 25%;
-    height: 35%;
-    padding: 0 0 20px 0;
 }
 
 .fyloBD .first h3 {
     padding: 10px 0;
 }
 
-.fyloBD .first li p {
-    font-weight: 400;
+.fyloBD .first p {
     font-size: 14px;
 }
 
 /* STAY PRODUCTIVE */
 
 .stayProductive {
-    margin: 0 1rem;
-    padding: 0 0 50px 0;
+    margin: 200px;
+    display: flex;
+    justify-content: center;
 }
 
-.stayProductive .second {
-    display: block;
-    list-style-type: none;
-    padding: 50px 0 0 0;
+.stayProductive .productiveImg {
+    margin: auto 30px auto auto;
 }
 
-.stayProductive .second li .productive {
-    width: 80%;
-    height: 80%;
+.stayProductive .gigMenuInfo {
+    margin: auto auto auto 30px;
 }
 
-.stayProductive .second .gigMenuInfo {
-    text-align: left;
-}
-
-.stayProductive .second .gigMenuInfo h3 {
-    font-size: 20px;
+.stayProductive .gigMenuInfo h3 {
+    font-size: 30px;
     padding: 2rem 0 1rem 0;
 }
 
-.stayProductive .second .gigMenuInfo p {
-    font-family: 'Raleway';
+.stayProductive .gigMenuInfo p {
     padding: 10px 0;
+    font-size: 16px;
 }
 
-.stayProductive .second .gigMenuInfo .arrow a {
+.stayProductive .gigMenuInfo .arrow a {
     border-bottom: 1px solid var(--cyan);
     color: var(--cyan);
     font-size: 18px;
     text-decoration: none;
 }
 
-.stayProductive .second .gigMenuInfo .arrow a:hover {
+.stayProductive .gigMenuInfo .arrow a:hover {
     color: var(--white);
     border-bottom: 1px solid var(--white);
 }
 
-.stayProductive .second .gigMenuInfo .arrow img {
+.stayProductive .gigMenuInfo .arrow img {
     width: 3%;
     height: 3%;
 }
