@@ -1,440 +1,753 @@
 * {
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Segoe UI', sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", sans-serif;
 }
 
 :root {
-    --intro-mailbg: hsl(217, 28%, 15%);
-    --mainbg: hsl(218, 28%, 13%);
-    --footerbg: hsl(216, 53%, 9%);
-    --testimonialbg: hsl(219, 30%, 18%);
-    --cyan: hsl(176, 68%, 64%);
-    --blue: hsl(198, 60%, 50%);
-    --lightred: hsl(0, 100%, 63%);
-    --white: hsl(0, 0%, 100%);
+  --intro-mailbg: hsl(217, 28%, 15%);
+  --mainbg: hsl(218, 28%, 13%);
+  --footerbg: hsl(216, 53%, 9%);
+  --testimonialbg: hsl(219, 30%, 18%);
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --lightred: hsl(0, 100%, 63%);
+  --white: hsl(0, 0%, 100%);
 }
 
 body {
-    font-family: 'Open Sans';
-    background: #ccc;
+  font-family: "Open Sans";
+  background: #ccc;
 }
 
-h1,h2,h3,h4,h5,h6, li, p {
-    color: var(--white);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+p {
+  color: var(--white);
 }
 
 .topSection {
-    padding: 0 10rem;
-    background-color: #1C2230;
+  padding: 0 10rem;
+  background-color: #1c2230;
 }
 
 .topBar {
-    width: 100%;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .topBar img {
-    width: 150px;
+  width: 150px;
 }
 
 .topBar ul {
-    display: flex;
-    list-style: none;
-    font-size: 16px;
+  display: flex;
+  list-style: none;
+  font-size: 16px;
 }
 
 .topBar ul li {
-    padding: 0 1rem;
-    color: #afafaf;
+  padding: 0 1rem;
+  color: #afafaf;
 }
 
 .topIntro {
-    text-align: center;
-    margin: 50px 0 0 0;
+  text-align: center;
+  margin: 50px 0 0 0;
 }
 
 .topIntro img {
-    width: 500px;
+  width: 500px;
 }
 
 .topIntro .topIntroTxt {
-    background-image: url("bg-curvy-desktop.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .topIntro .topIntroTxt h3 {
-    font-size: 42px;
-    margin: 10px 400px;
-    line-height: 1.3;
+  font-size: 42px;
+  margin: 10px 400px;
+  line-height: 1.3;
 }
 
 .topIntro .topIntroTxt p {
-    font-size: 18px;
-    margin: 10px 530px 40px 530px;
-    line-height: 1.5;
-    color: #D4D9E5;
+  font-size: 18px;
+  margin: 10px 530px 40px 530px;
+  line-height: 1.5;
+  color: #d4d9e5;
 }
 
 .topIntro a {
-    text-decoration: none;
-    color: var(--white);
-    background: linear-gradient(90deg, rgb(0, 225, 255), rgb(0, 162, 255));
-    padding: 10px 50px;
-    border-radius: 20px;
-    font-size: 14px;
+  text-decoration: none;
+  color: var(--white);
+  background: linear-gradient(90deg, rgb(0, 225, 255), rgb(0, 162, 255));
+  padding: 10px 50px;
+  border-radius: 20px;
+  font-size: 14px;
 }
 
 .topIntro a:hover {
-    text-decoration: none;
-    color: var(--white);
-    background: var(--cyan);
-    padding: 10px 50px;
-    border-radius: 20px;
+  text-decoration: none;
+  color: var(--white);
+  background: var(--cyan);
+  padding: 10px 50px;
+  border-radius: 20px;
 }
 
 /* MIDDLE SECTION*/
 
 .middleSection {
-    background-color: var(--mainbg);
+  background-color: var(--mainbg);
 }
 
 .fyloBD {
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 100px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .fyloBD .first {
-    margin: 100px 300px 20px 300px;
-    list-style-type: none;
-    display: flex;
+  margin: 100px 300px 20px 300px;
+  list-style-type: none;
+  display: inline-flex;
 }
 
 .fyloBD .first li {
-    margin: 1rem;
-    padding: 1rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .fyloBD .first h3 {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .fyloBD .first p {
-    font-size: 14px;
-    color: #D4D9E5;
+  font-size: 14px;
+  color: #d4d9e5;
 }
 
 /* STAY PRODUCTIVE */
 
 .stayProductive {
-    margin: 200px;
-    display: flex;
-    justify-content: center;
+  margin: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 .stayProductive .productiveImg {
-    margin: auto 30px auto auto;
+  margin: auto 30px auto auto;
 }
 
 .stayProductive .gigMenuInfo {
-    margin: auto auto auto 30px;
+  margin: auto auto auto 30px;
 }
 
 .stayProductive .gigMenuInfo h3 {
-    font-size: 30px;
-    padding: 2rem 0 1rem 0;
+  font-size: 30px;
+  padding: 2rem 0 1rem 0;
 }
 
 .stayProductive .gigMenuInfo p {
-    padding: 10px 0;
-    font-size: 16px;
-    color: #D4D9E5;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #d4d9e5;
 }
 
 .stayProductive .gigMenuInfo .arrow a {
-    border-bottom: 1px solid var(--cyan);
-    color: var(--cyan);
-    font-size: 18px;
-    text-decoration: none;
+  border-bottom: 1px solid var(--cyan);
+  color: var(--cyan);
+  font-size: 18px;
+  text-decoration: none;
 }
 
 .stayProductive .gigMenuInfo .arrow a:hover {
-    color: var(--white);
-    border-bottom: 1px solid var(--white);
+  color: var(--white);
+  border-bottom: 1px solid var(--white);
 }
 
 .stayProductive .gigMenuInfo .arrow img {
-    width: 3%;
-    height: 3%;
+  width: 3%;
+  height: 3%;
 }
 
 /* TESTIMONY */
 
 .fyloTestimony {
-    margin: 10rem;
+  margin: 10rem;
 }
 
 .fyloTestimony .bgQuote {
-    text-align: left;
-    margin-left: 4rem;
-    z-index: -10;
+  text-align: left;
+  margin-left: 4rem;
+  z-index: -10;
 }
 
 .fyloTestimony ul {
-    margin: 0 2rem 5rem 2rem;
-    list-style-type: none;
+  margin: 0 2rem 5rem 2rem;
+  list-style-type: none;
+  display: flex;
 }
 
 .fyloTestimony ul li {
-    margin: 0 2rem;
+  margin: 0 2rem;
 }
 
 .fyloTestimony ul .tmonyBox {
-    background-color: #1C2230;
-    padding-bottom: 30px;
-    border-radius: 20px;
+  background-color: #1c2230;
+  padding-bottom: 30px;
+  border-radius: 20px;
 }
 
 .fyloTestimony ul .tmonyBox p {
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0 0 20px 0;
-    padding: 30px 60px 10px 60px;
-    color: #D4D9E5;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+  padding: 30px 60px 10px 60px;
+  color: #d4d9e5;
 }
 
 .fyloTestimony .tmonyBox .profileBox {
-    display: inline-flex;
-    margin: auto auto auto 60px;
+  display: inline-flex;
+  margin: auto auto auto 60px;
 }
 
 .fyloTestimony .tmonyBox .profileBox img {
-    width: 50px;
-    border-radius: 50%;
+  width: 50px;
+  border-radius: 50%;
 }
 
 .fyloTestimony .tmonyBox .profileBox .name {
-    padding: 0 10px;
-    margin-top: 5px;
+  padding: 0 10px;
+  margin-top: 5px;
 }
 
 .fyloTestimony .tmonyBox .profileBox .name h4 {
-    padding: 1px 0;
-    font-weight: bold;
+  padding: 1px 0;
+  font-weight: bold;
 }
 
 .fyloTestimony .tmonyBox .profileBox .name h6 {
-    color: #D4D9E5;
-    font-size: 10px;
+  color: #d4d9e5;
+  font-size: 10px;
 }
 
 /* EMAIL ACTION */
 
 .emailAction {
-    width: 50%;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    margin: auto auto -100px auto;
-    text-align: center;
-    background: var(--intro-mailbg);
-    border-radius: 20px;
-    z-index: 50;
-    padding: 50px;
+  width: 55%;
+  padding: 50px 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto auto -100px auto;
+  text-align: center;
+  background: var(--intro-mailbg);
+  border-radius: 20px;
+  z-index: 50;
 }
 
 .emailAction h3 {
-    font-size: 35px;
-    font-weight: 600;
-    padding: 0 0 15px 0;
+  font-size: 35px;
+  font-weight: 600;
+  padding: 0 0 15px 0;
 }
 
 .emailAction p {
-    font-size: 16px;
-    margin: 10px 0 35px 0;
-    color: #D4D9E5;
+  font-size: 16px;
+  margin: 10px 0 35px 0;
+  color: #d4d9e5;
+}
+
+.emailAction .actionKey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .emailAction .actionKey input {
-    height: 30px;
-    width: 60%;
-    background: var(--white);
-    border-radius: 50px;
-    padding: 25px;
-    margin: 0 40px 0 0;
-    font-size: 14px;
+  height: 30px;
+  width: 600px;
+  background: var(--white);
+  border-radius: 50px;
+  padding: 30px;
+  margin: auto;
+  font-size: 20px;
 }
 
 .emailAction .actionKey span a {
-    text-decoration: none;
-    color: var(--white);
-    background: linear-gradient(90deg, rgb(0, 225, 255), rgb(0, 162, 255));
-    border-radius: 50px;
-    padding: 15px 45px;
+  text-decoration: none;
+  color: var(--white);
+  background: linear-gradient(90deg, rgb(0, 225, 255), rgb(0, 162, 255));
+  border-radius: 50px;
+  padding: 20px 35px;
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 .emailAction .actionKey span a:hover {
-    color: var(--white);
-    background: var(--cyan);
+  color: var(--white);
+  background: var(--cyan);
 }
-
 
 /* FOOTER */
 
 .footer {
-    background: var(--footerbg);
-    color: var(--white);
-    padding: 250px 0 150px 0;
-    justify-content: center;
-    display: flex;
-    margin: auto;
-    padding: 200px;
-    font-size: 18px;
+  background: var(--footerbg);
+  color: var(--white);
+  padding: 250px 0 150px 0;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  padding: 200px;
+  font-size: 18px;
 }
 
 .footer ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-.footer-one, .footer-two, .footer-three, .footer-four, .footer-five {
-    margin: auto;
+.footer-one,
+.footer-two,
+.footer-three,
+.footer-four,
+.footer-five {
+  margin: -1px auto 30px auto;
+}
+
+.footer-five {
+  margin: 40px auto 30px auto;
 }
 
 .footer-one ul .fLogotext {
-    display: inline-flex;
-    margin-top: 20px;
+  display: inline-flex;
+  margin-top: 20px;
 }
 
 .footer-one ul .fLogotext img {
-    width: 3%;
-    height: 3%;
-    margin: 10px 20px 0 10px;
+  width: 3%;
+  height: 3%;
+  margin: 10px 20px 0 10px;
 }
 
 .footer-two ul li {
-    display: flex;
-    margin: auto auto 20px auto;
+  display: flex;
+  margin: auto auto 20px auto;
 }
 
 .footer-two ul li img {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .footer-three ul li {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 
 .footer-four ul li {
-    padding: 10px 0;
-    margin: -10px 5px 0 5px;
+  padding: 10px 0;
+  margin: -10px 5px 0 5px;
 }
 
 .footer-five ul {
-    display: flex;
+  display: flex;
 }
 
 .footer-five ul li {
-    margin: -40px 5px 0 5px;
-    padding: 10px;
-    border: 1px solid var(--white);
-    border-radius: 50%;
+  margin: -40px 5px 0 5px;
+  padding: 10px;
+  border: 1px solid var(--white);
+  border-radius: 50%;
 }
 
-
 .footer-bottom {
-    background: var(--mainbg);
-    color: var(--blue);
-    font-size: 14px;
-    text-align: center;
-    bottom: 0px;
-    padding: 20px 0;
+  background: var(--mainbg);
+  color: var(--blue);
+  font-size: 14px;
+  text-align: center;
+  bottom: 0px;
+  padding: 20px 0;
 }
 
 .footer-bottom a {
-    text-decoration: none;
-    color: var(--white);
-    background: var(--mainbg);
-    border: 1px solid var(--white);
-    border-radius: 50px;
-    padding: 5px 15px;
-    margin-left: 5px;
+  text-decoration: none;
+  color: var(--white);
+  background: var(--mainbg);
+  border: 1px solid var(--white);
+  border-radius: 50px;
+  padding: 5px 15px;
+  margin-left: 5px;
 }
-
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 1440px) {
-    .fyloBD .first {
-        display: inline-flex;
-    }
-    .fyloBD .first li {
-        width: 100%;
-    }
-    .stayProductive {
-        margin: 0 5rem 0 0;
-    }
-    .stayProductive .second {
-        display: inline-flex;
-        padding-left: 100px;
-    }
-    .stayProductive .second .gigMenuInfo h3 {
-        font-size: 30px;
-        padding: 2rem 0 0 0;
-    }
-    .stayProductive .second .gigMenuInfo .arrow img {
-        width: 2%;
-        height: 2%;
-    }
-    .fyloTestimony ul {
-        display: flex;
-    }
-    .fyloBD .emailAction {
-        margin: 0 20rem;
-        padding: 40px 60px;
-    }
-    .fyloBD .emailAction .actionKey input {
-        height: 40px;
-        width: 60%;
-        background: var(--white);
-        border-radius: 50px;
-        padding: 0 0 0 30px;
-        margin: 0 20px 0 0;
-    }
-    .fyloBD .emailAction .actionKey span a {
-        text-decoration: none;
-        color: var(--white);
-        background: var(--blue);
-        border-radius: 50px;
-        padding: 13px 30px;
-    }
-    .footer .footer-content {
-        display: flex;
-    }
-    .footer .footer-content .footer-section-one {
-        width: 40%;
-        padding: 15px;
-    }
-    .footer .footer-content .footer-section-two {
-        width: 15%;
-        font-size: 16px;
-        padding: 30px 0 0 0;
-    }
-    .footer .footer-content .footer-section-two .footer2-1, .footer2-2 {
-        display: inline-flex;
-    }
-    .footer .footer-content .footer-section-three {
-        width: 15%;
-    }
-    .footer .footer-content .footer-section-four {
-        width: 15%;
-    }
-    .footer .footer-content .footer-section-five {
-        width: 15%;
-    }
+@media (min-width: 2000px) {
+  .topIntro .topIntroTxt h3 {
+    margin: 10px 500px;
+  }
+  .topIntro .topIntroTxt p {
+    margin: 10px 530px 40px 530px;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1999px) {
+  .topIntro .topIntroTxt h3 {
+    margin: 10px 300px;
+  }
+  .topIntro .topIntroTxt p {
+    margin: 10px 300px 40px 300px;
+  }
+  .topIntro .topIntroTxt {
+    background-image: url("bg-curvy-mobile.svg");
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1699px) {
+  .topIntro .topIntroTxt h3 {
+    margin: 10px 100px;
+  }
+  .topIntro .topIntroTxt p {
+    margin: 10px 150px 40px 150px;
+  }
+  .topIntro .topIntroTxt {
+    background-image: url("bg-curvy-mobile.svg");
+  }
+  .stayProductive {
+    margin: 100px;
+  }
+  .emailAction {
+    width: 60%;
+    padding: 50px 20px;
+  }
+  .emailAction p {
+    font-size: 16px;
+    margin: 10px 0 35px 0;
+  }
+  .emailAction .actionKey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .emailAction .actionKey input {
+    height: 30px;
+    width: 600px;
+    padding: 30px;
+    margin: auto;
+    font-size: 20px;
+  }
+  .emailAction .actionKey span a {
+    padding: 20px 35px;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1399px) {
+  .topIntro .topIntroTxt h3 {
+    margin: 10px 10px;
+  }
+  .topIntro .topIntroTxt p {
+    margin: 10px 50px 40px 50px;
+  }
+  .topIntro .topIntroTxt {
+    background-image: none;
+  }
+  .fyloBD .first {
+    margin: 100px 200px 20px 200px;
+  }
+  .stayProductive {
+    margin: 100px;
+  }
+  .stayProductive .productiveImg {
+    width: 400px;
+  }
+  .fyloTestimony {
+    margin: 5rem;
+  }
+  .fyloTestimony ul {
+    display: flex;
+  }
+  .fyloTestimony ul li {
+    margin: 0 1rem;
+  }
+  .fyloTestimony ul .tmonyBox p {
+    padding: 30px 40px 10px 40px;
+  }
+  .fyloTestimony .tmonyBox .profileBox {
+    margin: auto auto auto 40px;
+  }
+  .emailAction {
+    width: 60%;
+    padding: 50px 20px;
+  }
+  .emailAction p {
+    font-size: 16px;
+    margin: 10px 0 35px 0;
+  }
+  .emailAction .actionKey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .emailAction .actionKey input {
+    height: 30px;
+    width: 400px;
+    padding: 25px;
+    margin: auto;
+    font-size: 18px;
+  }
+  .emailAction .actionKey span a {
+    padding: 15px 20px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .footer {
+    display: flex;
+    margin: auto;
+    padding: 150px 50px 100px 50px;
+    font-size: 14px;
+  }
+  .footer-one {
+    margin: -1px auto 30px auto;
+  }
+  .footer-one ul .fLogotext {
+    display: inline-flex;
+  }
+  .footer-two {
+    margin: -1px auto 30px auto;
+  }
+  .footer-two ul li {
+    display: flex;
+  }
+  .footer-three {
+    margin: -1px auto 30px auto;
+  }
+  .footer-three ul li {
+    padding: 5px 0;
+  }
+  .footer-four {
+    margin: -1px auto 30px auto;
+  }
+  .footer-five {
+    margin: auto;
+  }
+  .footer-five ul {
+    display: block;
+    position: relative;
+  }
+  .footer-five ul li {
+    margin: auto auto 10px auto;
+  }
+
+  .footer-five ul li {
+    border: 1px solid var(--white);
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .topIntro .topIntroTxt h3 {
+    font-size: 32px;
+    margin: auto;
+    line-height: 1.3;
+  }
+  .topIntro .topIntroTxt p {
+    font-size: 14px;
+    margin: 10px 50px 40px 50px;
+  }
+  .topIntro .topIntroTxt {
+    background-image: none;
+  }
+  .fyloBD .first {
+    margin: 100px 100px 20px 100px;
+  }
+  .stayProductive {
+    margin: 10px 100px;
+  }
+  .stayProductive .productiveImg {
+    width: 300px;
+  }
+  .fyloTestimony {
+    margin: 2rem;
+  }
+  .fyloTestimony ul {
+    display: flex;
+  }
+  .fyloTestimony ul li {
+    margin: 0 1rem;
+  }
+  .fyloTestimony ul .tmonyBox p {
+    padding: 30px 15px 10px 15px;
+  }
+  .fyloTestimony .tmonyBox .profileBox {
+    margin: auto auto auto 15px;
+  }
+  .emailAction {
+    width: 80%;
+    padding: 50px 20px;
+  }
+  .emailAction p {
+    font-size: 16px;
+    margin: 10px 0 35px 0;
+  }
+  .emailAction .actionKey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .emailAction .actionKey input {
+    height: 30px;
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    font-size: 14px;
+  }
+  .emailAction .actionKey span a {
+    padding: 12px 10px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .footer {
+    display: flex;
+    margin: auto;
+    padding: 150px 50px 100px 50px;
+    font-size: 14px;
+  }
+  .footer-one {
+    margin: -1px auto 30px auto;
+  }
+  .footer-one ul .fLogotext {
+    display: inline-flex;
+  }
+  .footer-two {
+    margin: -1px auto 30px auto;
+  }
+  .footer-two ul li {
+    display: flex;
+  }
+  .footer-three {
+    margin: -1px auto 30px auto;
+  }
+  .footer-three ul li {
+    padding: 5px 0;
+  }
+  .footer-four {
+    margin: -1px auto 30px auto;
+  }
+  .footer-five {
+    margin: auto;
+  }
+  .footer-five ul {
+    display: block;
+    position: relative;
+  }
+  .footer-five ul li {
+    margin: auto auto 10px auto;
+  }
+
+  .footer-five ul li {
+    border: 1px solid var(--white);
+    border-radius: 50%;
+  }
+}
+
+@media (max-width: 749px) {
+  .topBar img {
+    width: 100px;
+  }
+  .topBar ul {
+    font-size: 12px;
+  }
+  .topBar ul li {
+    padding: 0 1rem;
+  }
+  .topIntro img {
+    width: 200px;
+    margin: 30px auto;
+  }
+  .topSection {
+    padding: 0 3rem;
+  }
+  .topIntro .topIntroTxt h3 {
+    font-size: 22px;
+    margin: auto;
+    line-height: 1.3;
+  }
+  .topIntro .topIntroTxt p {
+    font-size: 14px;
+    margin: 10px 1px 40px 1px;
+  }
+  .topIntro .topIntroTxt {
+    background-image: none;
+  }
+  .fyloBD .first {
+    display: inline-block;
+    margin: 100px 50px 20px 50px;
+  }
+  .stayProductive {
+    margin: auto;
+    display: block;
+    text-align: center;
+  }
+  .stayProductive .productiveImg {
+    width: 300px;
+  }
+  .fyloTestimony {
+    margin: 5rem;
+  }
+  .fyloTestimony ul {
+    display: block;
+  }
+  .fyloTestimony ul li {
+    margin: 1rem;
+  }
+  .fyloTestimony ul .tmonyBox p {
+    padding: 30px 15px 10px 15px;
+  }
+  .fyloTestimony .tmonyBox .profileBox {
+    margin: auto auto auto 15px;
+  }
+  .emailAction {
+    width: 80%;
+    padding: 50px;
+  }
+  .emailAction p {
+    font-size: 14px;
+    margin: 10px 0 35px 0;
+  }
+  .emailAction .actionKey {
+    display: block;
+  }
+  .emailAction .actionKey input {
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    margin: 0 0 20px 0;
+    font-size: 14px;
+  }
+  .emailAction .actionKey span a {
+    padding: 10px 25px;
+  }
+  .footer {
+    display: block;
+    margin: auto;
+    padding: 150px 50px 100px 50px;
+  }
+  .footer-one,
+  .footer-two,
+  .footer-three,
+  .footer-four,
+  .footer-five {
+    margin: 3rem auto;
+    width: 100%;
+  }
 }
