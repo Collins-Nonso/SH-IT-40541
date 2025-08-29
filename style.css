@@ -607,9 +607,20 @@ p {
   }
   .fyloTestimony ul .tmonyBox p {
     padding: 30px 15px 10px 15px;
+    font-size: 12px;
   }
   .fyloTestimony .tmonyBox .profileBox {
-    margin: auto auto auto 15px;
+    margin: auto auto auto 10px;
+  }
+  .fyloTestimony .tmonyBox .profileBox img {
+    height: 50px;
+    height: 50px;
+  }
+  .fyloTestimony .tmonyBox .profileBox h4 {
+    font-size: 14px;
+  }
+  .fyloTestimony .tmonyBox .profileBox h6 {
+    font-size: 12px;
   }
   .emailAction {
     width: 80%;
