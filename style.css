@@ -138,17 +138,17 @@ p {
 /* STAY PRODUCTIVE */
 
 .stayProductive {
-  margin: 200px;
+  margin: 200px auto;
   display: flex;
   justify-content: center;
 }
 
-.stayProductive .productiveImg {
-  margin: auto 30px auto auto;
+.stayProductive .gigMenuInfo {
+  margin: 50px auto auto 50px;
 }
 
-.stayProductive .gigMenuInfo {
-  margin: auto auto auto 30px;
+.stayProductive .productiveImg {
+  margin: auto 30px auto auto;
 }
 
 .stayProductive .gigMenuInfo h3 {
@@ -710,6 +710,9 @@ p {
     margin: auto;
     display: block;
     text-align: center;
+  }
+  .stayProductive .gigMenuInfo {
+    margin: auto;
   }
   .stayProductive .productiveImg {
     width: 220px;
