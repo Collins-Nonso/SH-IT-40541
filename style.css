@@ -572,13 +572,29 @@ p {
     background-image: none;
   }
   .fyloBD .first {
-    margin: 100px 100px 20px 100px;
+    margin: 100px 20px 20px 20px;
+  }
+  .fyloBD .first li img {
+    height: 3em;
+    width: auto;
+  }
+  .fyloBD .first li h3 {
+    font-size: 14px;
+  }
+  .fyloBD .first li p {
+    font-size: 10px;
   }
   .stayProductive {
-    margin: 10px 100px;
+    margin: 10px 80px;
   }
   .stayProductive .productiveImg {
     width: 300px;
+  }
+  .stayProductive .gigMenuInfo h3 {
+    font-size: 26px;
+  }
+  .stayProductive .gigMenuInfo p {
+    font-size: 14px;
   }
   .fyloTestimony {
     margin: 2rem;
